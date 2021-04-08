@@ -11,7 +11,7 @@ from time import sleep as date
          Compile Marshal Only Python3 Not Support Python2
 '''
 
-exec(open("colors").read())
+exec(open("etc/.colors").read())
 
 _black_ = lambda: print(f"""\n {yellow}╔═╗╦ ╦╔═╗╔═╗╔╦╗╔═╗╦╦  ╔═╗╦═╗\n {yellow}╠═╝╚╦╝║  ║ ║║║║╠═╝║║  ║╣ ╠╦╝\n {yellow}╩   ╩ ╚═╝╚═╝╩ ╩╩  ╩╩═╝╚═╝╩╚═  {green}Only Py3\n {black}=======================================\n {green}[{white}•{green}] {white}Creator {black}: {white}Kingtebe\n {green}[{white}•{green}] {white}Youtube {black}: {white}FaaL Tv\n {green}[{white}•{green}] {white}Github  {black}: {green}github.com/Kingtebe\n {black}=======================================\n""")
 
